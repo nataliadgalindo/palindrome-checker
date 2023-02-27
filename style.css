@@ -1,9 +1,12 @@
+*, *::before, *::after
+
 body {
     background-color: #d08579;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 /* main section */
@@ -13,16 +16,20 @@ body {
     color: #F0DBDB;
     border-radius: 2rem;
     font-family: 'Raleway', sans-serif;
-    width: 50%;
+    width: 70vw;
     height: 70vh;
-    padding: 6rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .title {
     font-size: 3rem;
     font-weight: bold;
+    padding-bottom: 3rem;
 }
 
 .user-text {
