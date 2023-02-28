@@ -11,7 +11,7 @@ $(".user-text").change(function() {
 });
 
 function palindromeCheck(text) {
-    return text.toLowerCase().replace(/[^a-z0-9]/gi, '').split("").reverse().join("") === text.toLowerCase().replace(/[^a-z0-9]/gi, '')
+    return text.toLowerCase().split("").reverse().join("") === text.toLowerCase()
 }
 
 toggleMode.click(function() {
